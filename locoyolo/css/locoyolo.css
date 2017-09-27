@@ -1,0 +1,1319 @@
+/*CSS*/
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+.event-message-image, .event-message-content {
+    line-height: 37px;
+    padding-left: 0;
+    width:auto;
+}
+.event-message-content > * {
+    display:inline-block;
+}
+.event-message-content > p {
+    padding-left:3px;
+}
+.make-space::before, .make-space::after {
+    content: " ";
+}
+.has-date-time > span {
+    font-size: 14px;
+}
+.make-more-space {
+    display: inline-block;
+    width: 20px;
+}
+.make-even-more-space {
+    display: inline-block;
+    width: 30px;
+}
+.has-event-message > div {
+    float: left;
+}
+.has-event-message {
+    overflow: hidden;
+}
+.has-invites {
+    border-bottom: 1px solid #f3f3f3;
+    padding-bottom: 7px;
+    margin-bottom:15px;
+}
+.has-invites > span {
+    display: inline-block;
+}
+.invite-button {
+    background-color: #fff;
+    border: 1px solid #f96a04;
+    border-radius: 5px;
+    color: #f96a04;
+    display: inline-block;
+    min-height: 25px;
+    min-width: 45px;
+    padding: 5px 15px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.has-invites > a.invite-button {
+    float:right;
+}
+.has-see-all-friends-btn {
+    text-align:center;
+}
+#has-invite-friends {
+    max-width: 100%;
+    width: 340px;
+}
+.has-date-time {
+    color: #575757;
+}
+/*Margin between rows*/
+.has-event-image {
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.has-date-time {
+    margin-bottom: 15px;
+}
+.has-booking-details {
+    margin-bottom: 30px;
+}
+.make-space-column {
+    float: left;
+    height: 95px;
+    width: 30px;
+}
+.has-event-requirements .has-content {
+    margin-bottom: 20px;
+}
+.has-event-summary .has-title {
+    margin-bottom: 25px;
+}
+.has-title > h3, .has-title > h4 {
+    color:#b06335;
+}
+.has-content > ol {
+    padding-left: 18px;
+}
+.image-has-radius {
+    border-radius: 100%;
+}
+.has-event-summary {
+    margin-bottom: 15px;
+}
+
+.has-comment-area > div {
+    float: left;
+}
+input.comment-area {
+    height: 31px;
+    max-width: 100%;
+    width: 83%;
+	margin-top:4px;
+}
+.has-comment-area {
+    /*background-color: #eaeafa;*/
+    max-width: 100%;
+    padding: 10px 0 0;
+    width: 580px;
+}
+.has-comment-area .event-message-image {
+    width: 65px;
+}
+div#event-detail-page-wrapper, div#event-notifications-page-wrapper, div#ping-detail-page-wrapper, div#participants-page-wrapper, div#search-page-wrapper {
+    padding: 20px 0;
+}
+/*Notifications Page*/
+.has-notifications {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    max-width: 100%;
+    width: 610px;
+    margin-top: 30px;
+}
+.is-notification > div {
+    float: left;
+}
+.is-notification {
+    background-color: #f3f3f3;
+    line-height: 37px;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 10px 10px;
+    width: 610px;
+    border-bottom: 1px solid #ddd;
+}
+.is-notification > .notification-itself {
+    line-height: 22px;
+    margin-left: 20px;
+    max-width: 88%;
+    width: 600px;
+}
+.is-notification > .who-sent-notification {
+    width: 37px;
+}
+
+.on-notifications-page > h4 {
+    margin-top: 20px;
+}
+
+button.btn.btn-custom_34 {
+    background-color: #343434;
+    color: #fff;
+	opacity:1;
+}
+button.btn.btn-custom_cb {
+    background-color: #0199cb;
+    color: #fff;
+	  margin-top:10px;
+}
+button.btn_bold, .is-bold {
+    font-weight:bold;
+}
+span.has-number {
+    font-weight: bold;
+}
+
+.has-participants {
+    margin-bottom: 30px;
+}
+.has-participants > p {
+    font-size: 16px;
+    color: #5f5f5f;
+}
+button.btn.btn-custom_468 {
+    background-color: #fe0468;
+    color: #fff;
+}
+button.btn.btn-custom_535 {
+    background-color: #ff6535;
+    color: #fff;
+}
+.has-title.somewhat-gold h3 {
+    color: #b96622;
+}
+/*Interested people list on Participants Page*/
+.interested-people-list-item > div, .going-people-list-item > div {
+    float: left;
+}
+.interested-people-list-item,.going-people-list-item {
+    overflow:hidden;
+}
+.how-many-joined {
+    color: #fe0468;
+    margin-top: 15px;
+}
+.has-join-button {
+    margin-top: 10px;
+}
+.has-map {
+    margin-top: 25px;
+}
+.interested-people-list-item > div.make-space, .going-people-list-item > div.make-space {
+    width: 15px;
+    float: left;
+    height: 57px;
+}
+
+
+.interested-people-list-item,.going-people-list-item {
+    float: left;
+    margin-bottom: 25px;
+    width: 50%;
+}
+.has-list-item-btn {
+    margin-top: 5px;
+}
+.has-list-item-name {
+    font-weight: bold;
+}
+.has-list-image > img {
+    width: 50px;
+}
+.has-interested-people-list,.has-going-people-list {
+    margin-top: 15px;
+    overflow: hidden;
+}
+.has-list-item-btn > button {
+    padding: 3px 8px;
+}
+.no-margin {
+    margin:0;
+}
+.container .has-event-message .col-sm-1 {
+    width: 4.333%;
+}
+.event-message-image, .event-message-content {
+
+    width: 60%;
+}
+/*added by nisha@21JUNE for pingdetail page*/
+.has-comment-area .event-message-image {
+    width: 37px!important;
+    margin-right: 10px;
+}
+
+#ping-detail-page-wrapper .container .col-md-4
+{
+    margin-left: 40px;
+}
+/*#ping-detail-page-wrapper .container #commentsdisplay > div {*/
+    /*!*float: left;*!*/
+/*}*/
+#ping-detail-page-wrapper #commentsdisplay .event-message-image {
+    width: 6%;
+}
+#ping-detail-page-wrapper .container .row.comments-to-display {
+    margin-top: 20px;
+}
+/*end here*/
+/*.is-notification > .notification-itself > p.notification-content {
+  min-height: 37px;
+}*/
+
+/*Ping details Page*/
+input.has-info-where-input {
+    /*-moz-appearance: none;*/
+    border-bottom:2px solid #dee6f1;
+    border-top:0 none;
+    border-left:0 none;
+    border-right:0 none;
+    font-size: 15px;
+    line-height: 1.8;
+    width:100%;
+}
+.has-info-date select, .has-info-time select, .has-filters-categories select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-bottom:2px solid #dee6f1;
+    border-top:0 none;
+    border-left:0 none;
+    border-right:0 none;
+    font-size: 15px;
+    padding: 5px 0 5px 5px;
+}
+select.has-caret-down {
+    background-image: url("../images/caret-down.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 10px auto;
+    padding-right: 11px;
+}
+span.has-a-little-padding {
+    padding:0 3px;
+}
+.has-info-when > div {
+    float: left;
+    max-width: 100%;
+    width: 300px;
+}
+.has-info-where {
+    margin-bottom: 10px;
+}
+.has-info-when {
+    overflow: hidden;
+    margin-bottom:10px;
+}
+.has-info-date > select#has-date-select {
+    width: 50px;
+}
+.has-info-date > select#has-month-select {
+    width: 105px;
+}
+.not-bold {
+    font-weight:normal;
+}
+h3.find-events-title {
+    margin-top:0;
+    text-align:center;
+}
+select#has-month-select, select#has-year-select {
+    margin-left: 5px;
+}
+.has-filters-categories select {
+    padding: 0;
+}
+
+.has-filters {
+    overflow: hidden;
+    line-height: 30px;
+}
+.has-filters > div {
+    float: left;
+    width: 200px;
+}
+.has-filters > .has-filter-search-btn {
+    float: right;
+    width: auto;
+}
+.is-info-price {
+    color: #ff6535;
+    display: inline-block;
+    float: right;
+    line-height: 2.4;
+    position: relative;
+    top: -40px;
+}
+.is-event-title > h4 {
+    letter-spacing: 0.3px;
+    line-height: 1.2;
+}
+.is-info-whose-event {
+    margin-top: 15px;
+    overflow:hidden;
+}
+.is-ping-heading {
+    color: #0a80ba;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 0 10px;
+    text-transform: uppercase;
+}
+.is-ping {
+    background-color: #f0fff0;
+    padding:10px;
+}
+.is-ping-title h3 {
+    margin: 10px 0;
+}
+.is-ping .has-date-time, .is-event .has-date-time {
+    margin-bottom: 0;
+}
+.has-pings-and-events > div {
+    margin-bottom: 20px;
+}
+#diamond {
+    width: 0;
+    height: 0;
+    border: 9px solid transparent;
+    border-bottom-color: #ff812d;
+    position: relative;
+    top: -18px;
+    margin-right: 2px;
+}
+#diamond:after {
+    content: '';
+    position: absolute;
+    left: -9px;
+    top: 25px;
+    width: 0;
+    height: 0;
+    border: 9px solid transparent;
+    border-top-color: #ff812d;
+}
+.is-unique-border {
+    background-color: #dadbd6;
+    height: 2px;
+    margin: 15px -35px;
+    width: 109%;
+}
+.make-some-space {
+    display: inline-block;
+    width: 5px;
+}
+.is-count-review {
+    color: #575757;
+}
+
+.is-info-whose-event > div {
+    float: left;
+}
+.is-info-has-name {
+    margin-left: 5px;
+}
+
+/*For the Navbar*/
+#icons > div.navbar-icon {
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    position:relative;
+}
+#header-wrapper {
+    padding:5px 0;
+}
+#icons {
+    overflow: hidden;
+    text-align: center;
+    width: 153px;
+    float:right;
+	max-width:100%;
+}
+#header-wrapper > #logo {
+    width: 150px;
+    float:left;
+}
+#icons > div.navbar-icon > a {
+    display: inline-block;
+}
+span.icon-count {
+    background-color: #ff6535;
+    border-radius: 50px;
+    bottom: 0;
+    color: #fff;
+    display: block;
+    font-size: 10px;
+    height: 13px;
+    line-height: 1;
+    position: absolute;
+    right: 5px;
+    text-align: center;
+    width: 13px;
+}
+/*Not logged in Header*/
+.loginBtn {
+  box-sizing: border-box;
+  position: relative;
+  /* width: 13em;  - apply for fixed size */
+  margin: 1px 0.2em;
+  padding: 0 15px 0 46px;
+  border: none;
+  text-align: left;
+  line-height: 34px;
+  white-space: nowrap;
+  border-radius: 0.2em;
+  font-size: 16px;
+  color: #FFF;
+}
+.loginBtn:before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 34px;
+  height: 100%;
+}
+.loginBtn:focus {
+  outline: none;
+}
+.loginBtn:active {
+  box-shadow: inset 0 0 0 32px rgba(0,0,0,0.1);
+}
+
+
+/* Facebook */
+.loginBtn--facebook {
+  background-color: #4C69BA;
+  background-image: linear-gradient(#4C69BA, #3B55A0);
+  /*font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;*/
+  text-shadow: 0 -1px 0 #354C8C;
+}
+.loginBtn--facebook:before {
+  border-right: #364e92 1px solid;
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/icon_facebook.png') 6px 6px no-repeat;
+}
+.loginBtn--facebook:hover,
+.loginBtn--facebook:focus {
+  background-color: #5B7BD5;
+  background-image: linear-gradient(#5B7BD5, #4864B1);
+}
+.header_input > input {
+	font-family:'Roboto';
+}
+.right-side-wrapper {
+    float: right;
+}
+.right-side-wrapper > * {
+    float: left;
+}
+.header-facebook-button, .header-signin-form {
+	/*margin-right:15px;*/
+	float: left;
+}
+.header_input > input[type="email"], .header_input > input[type="password"] {
+    /*margin-right: 5px;*/
+    height: 35px;
+    padding-left: 8px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+}
+.header_forgot_link {
+	line-height:35px;
+}
+#event-detail-page-wrapper.goes-on-right.has-map {
+    margin-top: 0px!important;
+}
+@media only screen and (max-width:555px) {
+	.is-notification > .notification-itself { max-width:80%; }
+	.header_input > input[type="email"], .header_input > input[type="password"] {margin-bottom:15px;}
+}
+@media only screen and (max-width:668px) {
+	.is-notification > .notification-itself { max-width:80%; }
+	.has-notifications {
+		margin: 15px 0;
+		width: 100% !important;
+	}
+}
+
+@media only screen and (max-width:480px) {
+	.interested-people-list-item {
+		margin-bottom: 25px;
+		float:unset;
+		width:auto;
+	}
+	.has-comment-area .event-message-image {
+		width: 40px;
+	}
+	#header-wrapper > div {
+		float: unset !important;
+		width: auto !important;
+		text-align:center;
+		margin-bottom: 15px;
+	}
+	#icons > div.navbar-icon {
+		width: 55px;
+	}
+	span.icon-count {
+		right:13px;
+	}
+}
+
+@media only screen and (max-width:991px) {
+	#search-page-wrapper .goes-on-right {
+		margin-top:50px;
+	}
+	#header-wrapper.not-logged-in > .logo_div {
+		float: unset !important;
+		margin: 0 auto 15px;
+	}
+	.right-side-wrapper {
+		float: unset;
+		text-align: center;
+	}
+	.header-facebook-button {
+		float: unset;
+		margin: 10px; auto 15px;
+	}
+	
+	.form_wrapper {
+		float: unset;
+		text-align: center;
+	}
+	.form_wrapper > * {    
+		float: unset;
+	}
+
+}
+.dropdown-content {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    display: none;
+    left: auto;
+    min-width: 160px;
+    overflow: auto;
+    position: absolute;
+    right: 5px;
+    top: 25px;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+.dropbtn {
+    border: medium none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Added By Nitin Soni for Responsive Desing
+ */
+
+@media only screen and (min-width:320px) and (max-width: 800px) {
+   .has-buddy-count, .has-organised-event-count, .has-ping-count {
+      text-align: center !important;
+  }
+  .profile-wrapper .container.has-title {
+      text-align: center;
+  }
+/* Css for profile page */
+.profile-wrapper .has-booked-joined #booked-joined {
+    margin-left: 15px;
+}
+/*Css is added by Nitin Soni 05Aug/2017 for add event detail page  */
+.form-group #datetimepicker6 {
+    width: 100%;
+}
+
+/*  Added by Nitin Soni for Search Result PAge */
+#search-result-page-wrapper .media-object {
+    width: 100%;
+}
+#search-result-page-wrapper #event-details-informations,#search-result-page-wrapper .has-booking-details {
+    text-align: center;
+}
+#search-result-page-wrapper .searchresult:hover {
+    text-decoration: none;
+}
+#search-result-page-wrapper .main-div-for-searchresult {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+  
+} 
+@media only screen and (min-width:992px) {
+
+  .profile-wrapper .container {
+      padding-left: 0;
+  }
+  .profile-wrapper .is-attended-event-image img {
+      height: 160px;
+	  width:100%;
+  }
+  .profile-wrapper .goes-left {
+      padding-left: 0;
+  }
+  .profile-wrapper .is-attended-ping {
+      padding-left: 0;
+  }
+  .profile-wrapper .in-info-whose-event-container {
+      margin-bottom: 5px;
+  }
+  .profile-wrapper .is-attended-event {
+      padding-left: 0;
+  }
+  .profile-wrapper .goes-right {
+      padding-left: 50px;
+  }
+  .profile-wrapper .has-booked-joined .container.has-title > h3 {
+      margin-top: 0 !important;
+  }
+  .profile-wrapper .has-date-time {
+      margin-bottom: 0;
+  }
+  .profile-wrapper .is-organised-event-price.is-count {
+      margin-bottom: 0;
+      margin-top: 2px;
+  }
+  .profile-wrapper .is-attended-event .is-attended-event-name {
+    margin: 0;
+  }
+  /* Added by Nitin Soni for Serach Result Page 08Aug/2017 */
+  #search-result-page-wrapper .main-div-for-searchresult .has-participants {
+      float: left;
+  }
+  #search-result-page-wrapper .main-div-for-searchresult {
+      overflow: hidden;
+
+  }
+  #search-result-page-wrapper .main-div-for-searchresult {
+      height: 200px;
+      overflow: hidden;
+  }
+  #search-result-page-wrapper .main-div-for-searchresult {
+      height: 200px;
+      margin: 0 auto;
+      overflow: hidden;
+      margin: 15px auto 0;
+     /* width: 950px;*/
+  }
+  /* Show Shadow for search Result page by Nitin Soni */
+  /*#search-result-page-wrapper .main-div-for-searchresult{
+    -webkit-box-shadow: 0 4px 6px -6px #222;
+    -moz-box-shadow: 0 4px 6px -6px #222;
+    box-shadow: 0 4px 6px -6px #222;
+  }*/
+  #search-result-page-wrapper .interested.going,#search-result-page-wrapper .interested {
+      border-bottom: 1px solid #bbb;
+      padding-bottom: 11px;
+      padding-top: 11px;
+  }
+  #search-result-page-wrapper .main-div-for-searchresult .goes-on-right {
+      padding-left: 0;
+     /* background-color: #fffafa;*/
+      height: 200px;
+  }
+  #search-result-page-wrapper #has-results .has-number h2 {
+      margin: 0;
+  }
+  /*#search-result-page-wrapper {
+      background-color: #f3f3f3;
+  }*/
+  #search-result-page-wrapper .goes-on-left {
+      height: 200px;
+      padding: 0;
+      /*width: 269px;*/
+      overflow: hidden;
+  }
+  #search-result-page-wrapper #has-results .has-number {
+      padding-top: 19px;
+  }
+  #search-result-page-wrapper #event-details-informations {
+      height: 200px;
+      padding-top: 10px;
+  }
+  #search-result-page-wrapper .has-map {
+      margin: 0;
+      padding: 0;
+  }
+  #search-result-page-wrapper .media-heading {
+      font-size: 30px !important;
+  }
+  #search-result-page-wrapper .has-booking-details {
+      margin: 0;
+      position: relative;
+      top: 78px;
+  }
+  #search-result-page-wrapper .media-object {
+      display: block;
+      height: 100%;
+      width: 100%;
+  }
+  #search-result-page-wrapper .main-div-for-searchresult .goes-on-right .col-md-2 {
+      width: 11%;
+  }
+  #search-result-page-wrapper .main-div-for-searchresult .goes-on-right .col-md-6 {
+      width: 59%;
+  }
+  #search-result-page-wrapper .main-div-for-searchresult .goes-on-right .has-booking-details.col-md-4 {
+      width: 30%;
+  }
+  #search-result-page-wrapper #event-details-informations .has-content {
+       margin-top: 20px;
+  }
+  #search-result-page-wrapper #event-details-informations {
+      padding-left: 30px;
+  }
+  #search-result-page-wrapper {
+      width: 1147px;
+  }
+  #search-result-page-wrapper .event-message-content > p {
+      padding-left: 0;
+  }
+  /* Completed Here */
+
+
+}
+
+
+/* media query is added by Nitin Soni for Ping page for data button size*/
+@media only screen and (min-width:481px) and (max-width: 767px) {
+  .form-group #datetimepicker {
+      overflow: hidden;
+      width: 100%;
+  }
+  .form-group #datetimepicker #timerange {
+      width: 94%;
+  }
+  #datetimepicker .input-group-addon {
+      overflow: hidden;
+      padding: 0px;
+      width: auto;
+      height: 34px;
+  }  
+  .form-group #datetimepicker .glyphicon.glyphicon-calendar {
+      top: 10px;
+  }
+
+
+
+
+
+}
+
+
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Desktop View Work by Nitin Soni 
+
+   */
+.profile-wrapper .has-profile-image > img {
+    border-radius: 50%; width:50%;
+}
+/*.profile-wrapper .has-profile-name strong {
+    font-weight: unset !important;
+}*/
+.profile-wrapper .is-attended-event-name > a {
+    color: #333;
+}
+/*.profile-wrapper .has-events-organised .is-booked-event-condition .btn {
+     padding: 0 0 0 7px;
+}*/
+.profile-wrapper .is-attended-event .is-attended-event-name {
+    width: 100%;
+    word-break: break-all;
+}
+.profile-wrapper #bookingstatus .btn-danger {
+    background-color: #FD0132;
+     padding: 2px;
+}
+.profile-wrapper .is-ping-title .is-bold > a {
+    color: #000000;
+}
+/*.profile-wrapper .has-events-pings .container {
+    margin-bottom: 50px !important;
+}*/
+.profile-wrapper .has-events-organised {
+    margin-bottom: 20px;
+}
+.profile-wrapper .is-attended-ping .is-booked-event-condition .btn {
+    background-color: #fd0132;
+}
+.navbar-icon {
+    background: none !important;
+}
+
+
+/*  Css for notification page is added by Nitin Soni */
+#event-notifications-page-wrapper #is-notification {
+    background-color: rgba(255, 203, 101, 0.2) !important;
+}
+.goes-on-left h3 {
+    color: #ff3516 !important;
+}
+#event-notifications-page-wrapper .notification-itself .has-noti-date-time {
+    color: #808080;
+}
+#event-notifications-page-wrapper #has-invite-friends .has-invites {
+    margin-top: 8px;
+}
+.is-organised-event-price.is-count {
+    text-align: right;
+}
+/* Css is added for notification page 03Aug/2017 */
+#event-notifications-page-wrapper #id-for-notifications-page {
+    width: 100%;
+}
+#event-notifications-page-wrapper .has-notifications {
+    width: 100%;
+}
+#event-notifications-page-wrapper .has-notifications .is-notification {
+    padding: 0px 0 0 6px;
+    width: 100%;
+}
+#event-notifications-page-wrapper .notification-content {
+    margin-top: 10px;
+}
+#id-for-notifications-page .has-notifications .is-notification .who-sent-notification {
+    margin-top: 10px;
+}
+/*Event Details Page 03Aug/2017 by Nitin Soni */
+#event-detail-page-wrapper .event-message-content > strong {
+    font-size: 20px;
+}
+
+.profile-wrapper {
+    margin-top: 30px !important;
+}
+/* participants Page Css  */
+#participants-page-wrapper .container .has-event-message .col-sm-1 {
+    width: 52px !important;
+}
+#participants-page-wrapper .event-message-content.col-sm-11 {
+    margin-left: 0;
+}
+.event_search_start .searchsec .tableorangeborder {
+    border: none;
+}
+#event-notifications-page-wrapper {
+    padding: 0 !important;
+}
+.event_search_start #searchfrm .form-group {
+    margin-bottom: 3px;
+}
+/*Css is added by Nitin Soni 05Aug/2017 for add event detail page  */
+.form-vertical .page-sub-header {
+    margin: 0;
+    padding: 10px 0 !important;
+}
+.alert.alert-success.col-sm-8 {
+        z-index: 1;
+}
+.form-vertical #event_photo {
+    padding: 0 !important;
+    border: none;
+}
+
+/*   */
+#participants-page-wrapper .has-list-image > img {
+    border-radius: 50%;
+}
+
+/* Added by Nitin Soni for Serach Result Page 08Aug/2017 */
+#search-result-page-wrapper .media-heading,#search-result-page-wrapper .has-content,#search-result-page-wrapper .has-number,#search-result-page-wrapper .interested.going,#search-result-page-wrapper .interested,#search-result-page-wrapper .has-map {
+    color:  #64615c;
+}
+#search-result-page-wrapper #has-results {
+    border-right: 1px solid #bbb;
+    padding: 0;
+    text-align: center;
+}
+#search-result-page-wrapper #has-results .has-number h2 {
+    color: #64615c;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+#search-result-page-wrapper #event-details-informations {
+    border-right: 1px solid #bbb;
+}
+#search-result-page-wrapper #bookstatus #bookbtn {
+    background-color: #ffcb65;
+    color: #ffffff;
+    /*font-size: 19px;*/
+    font-weight: 500;
+    width: 100px;
+    /*border: none;*/
+    border-color: #ffcb65 !important;
+}
+#search-result-page-wrapper .has-booking-details {
+    text-align: center;
+}
+#search-result-page-wrapper #event-details-informations .has-content > p {
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+#search-result-page-wrapper .main-div-for-searchresult .goes-on-right {
+    background-color: rgb(247, 247, 247);
+}
+/*#search-result-page-wrapper .main-div-for-searchresult {
+    border: 1px solid #C0C0C0 !important;
+}*/
+#search-result-page-wrapper .event-message-content > p {
+    border-bottom: 1px solid #c0c0c0;
+    font-family: icon;
+}
+
+/* Css by Rajat  */
+#search-result-page-wrapper .interested.going:last-child, #search-result-page-wrapper .interested:last-child {
+    border: 0 none;
+}
+#search-result-page-wrapper .main-div-for-searchresult:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.19), 0 0 6px rgba(0, 0, 0, 0.23);
+}
+#search-result-page-wrapper .main-div-for-searchresult,#search-result-page-wrapper .main-div-for-searchresult .btn {
+    transition: 0.3s all ease;
+}
+#search-result-page-wrapper  .main-div-for-searchresult:hover .btn {
+    background-color: #cc9966 !important;
+    border-color: #cc9966 !important;
+}
+/*  Added by Nitin */
+/* Completed Css for search Result Page */
+
+/*  Added by Nitin Soni for participants page button */
+
+#participants-page-wrapper .has-participants-content .has-list-name-btn :hover {
+    padding: 2px !important;
+    font-size: 12px !important;   
+}
+.form-group #datetimepicker{
+    width: 100%;
+}
+
+/*Css is added by Nisha    */
+#msg.alert.alert-danger {
+    margin: 10px;
+}
+#msg.alert.alert-success {
+    margin: 10px;
+}
+#editprofile-details-form .uploadimg {
+    margin-top: 10px;
+}
+/*code added by nisha@19August*/
+.event-completed > img {
+    height: 21px!important;
+    width: 21px!important;
+}
+/*code added by nisha@23august*/
+.full {
+    width: 100%;
+}
+.gap {
+    height: 30px;
+    width: 100%;
+    clear: both;
+    display: block;
+}
+.footer {
+    background: #EDEFF1;
+    height: auto;
+    padding-bottom: 30px;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #DDDDDD;
+}
+.footer p {
+    margin: 0;
+}
+.footer img {
+    max-width: 100%;
+}
+.footer h3 {
+    border-bottom: 1px solid #BAC1C8;
+    color: #54697E;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    padding: 40px 0 10px;
+    text-transform: uppercase;
+}
+.footer ul {
+    font-size: 13px;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 15px;
+    color: #7F8C8D;
+}
+.footer ul li a {
+    padding: 0 0 5px 0;
+    display: block;
+}
+.footer a {
+    color: #78828D
+}
+.supportLi h4 {
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: normal;
+    margin-bottom: 0 !important;
+    padding-bottom: 0;
+}
+.newsletter-box input#appendedInputButton {
+    background: #FFFFFF;
+    display: inline-block;
+    float: left;
+    height: 30px;
+    clear: both;
+    width: 100%;
+}
+.newsletter-box .btn {
+    border: medium none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    height: 40px;
+    padding: 0;
+    width: 100%;
+    color: #fff;
+}
+.newsletter-box {
+    overflow: hidden;
+}
+.bg-gray {
+    background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+    box-shadow: 0 1px 0 #B4B3B3;
+}
+.social li {
+    background: none repeat scroll 0 0 #B5B5B5;
+    border: 2px solid #B5B5B5;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 8px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 36px;
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+.social li:hover {
+    transform: scale(1.15) rotate(360deg);
+    -webkit-transform: scale(1.1) rotate(360deg);
+    -moz-transform: scale(1.1) rotate(360deg);
+    -ms-transform: scale(1.1) rotate(360deg);
+    -o-transform: scale(1.1) rotate(360deg);
+}
+.social li a {
+    color: #EDEFF1;
+}
+.social li:hover {
+    border: 2px solid #2c3e50;
+    background: #2c3e50;
+}
+.social li a i {
+    font-size: 16px;
+    margin: 0 0 0 5px;
+    color: #EDEFF1 !important;
+}
+.footer-bottom {
+    background: #E3E3E3;
+    border-top: 1px solid #DDDDDD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+    padding-top: 10px;
+}
+.payments {
+    font-size: 1.5em;
+}
+.footer {
+    background: none;
+}
+
+.footer .col-lg-2.col-md-2.col-sm-4.col-xs-6 {
+    float: right;
+}
+.footer .col-lg-3.col-md-3.col-sm-6.col-xs-12 {
+    margin: 5%;
+    margin-left: 0;
+}
+.footer .dropdown.language {
+    border: 1px solid;
+    margin-bottom: 30px;
+    background: rgb(227,227,227);
+}
+.footer .dropdown.INR {
+    border: 1px solid;
+    background: rgb(227,227,227);
+
+}
+/*code added by nisha@23august for profile page text length*/
+
+
+
+.word-break-it,.all-pings-name,.is-ping-title,.is-attended-event-name,.ArialVeryDarkGreyBold18,.is-bold, .ArialVeryDarkGrey15,
+.marker
+ {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.suggested-event-list > .suggested-event > .tableshadowbox > div.sug-event_name > .suggested-location span.ArialVeryDarkGrey15 {
+  display: block;
+}
+/*code added by nisha@24august for change color text footer*/
+.footer .col-lg-2.col-md-2.col-sm-4.col-xs-6 a{
+    color: #666;
+}
+
+.footer .col-lg-2.col-md-2.col-sm-4.col-xs-6 > h3 {
+    color: rgb(86, 86, 86);
+
+}
+.footer .footer-img {
+    float: left;
+    margin-top: 5px;
+    position: relative;
+    right: 60px;
+}
+.terms > span {
+    left: 37%;
+    padding: 7px;
+    position: relative;
+}
+
+.footer-bottom .col-md-4.terms {
+    margin-top: 10px;
+    left: 154px;
+    position: relative;
+}
+.footer-bottom .pull-right .nav.nav-pills.payments
+{
+    float: right;
+}
+.footer-bottom .terms.col-md-4.terms a {
+    color: rgb(76, 76, 76);
+}
+
+.ArialVeryDarkGrey13,.ArialVeryDarkGrey15.eventname {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.footer{
+    overflow: hidden;
+}
+/*code added by nisha@25august for eventdetail page*/
+#event-detail-page-wrapper .row.has-booking-details > h3 {
+    color: rgb(62, 62, 62)!important;
+    margin: 0;
+}
+#event-detail-page-wrapper #si-ping-title {
+    font-size: 14px;
+}
+#participants-page-wrapper .row.has-title > h3 {
+    color: rgb(62, 62, 62)!important;
+    margin: 0;
+}
+
+/*For event objectives remove button*/
+.rmv_obj {
+    color: #ff3516 !important;
+    cursor: pointer;
+    font-size: 11px;
+    font-style: italic;
+}
+/*For event objectives remove button*/
+
+/*added by nisha@30august for ping title*/
+#ping-detail-page-wrapper .event-message-content #si-ping-title {
+
+    font-size: 14px;
+
+}
+#exampleModalPing #si-ping-title > strong {
+    font-size: 14px;
+}
+/*added by nisha@1august for calander icon color*/
+.glyphicon.glyphicon-user ,.glyphicon-calendar {
+    color: rgb(176, 176, 176);
+}
+.ArialVeryDarkGrey15.no-notification {
+    margin-bottom: 1px;
+    margin-left: 11px;
+    margin-top: -19px;
+}
+/*added bu nisha@4sep for events page*/
+.col-sm-3.profile-content {
+    display: contents;
+}
+.btn.btn-primary.edit-button {
+    margin-left: 7px;
+    margin-top: -37px;
+}
+
+/*added by nisha@5sept for model box on profile page*/
+.profile-wrapper #canceleventpopup .modal-dialog {
+    margin: -234px auto;
+    width: 600px;
+}
+/*added by nisha@7sept for notification page*/
+.accept-req {
+    float: right;
+    margin-right: 191px;
+    position: relative;
+    top: -35px;
+}
+.accept-req-dropdown {
+    float: right;
+    margin-right: -8px;
+    position: relative;
+    top: -35px;
+}
+
+.accept-req-dropdown .slimbuttonblue {
+    width: 117px !important;
+}

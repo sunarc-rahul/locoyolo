@@ -1,0 +1,388 @@
+.col-sm-7.searchsec {
+    margin-top: 166px;
+}
+.is-unique-border {
+    float: left !important;
+    margin-bottom: 8px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 8px;
+    width: 100% !important;
+}
+#icons {
+    overflow: visible;
+}
+
+
+.mainlist {
+    display: inline;
+    text-decoration: none;
+}
+.mainlist ul li ul {
+    display: none !important;
+}
+.mainlist li ul {
+    display: none;
+}
+.mainlist li {
+    float: left;
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none !important;
+}
+
+.mainlist li:hover ul {
+    display: block !important;
+}
+.mainlist li li {
+    background: #fff none repeat scroll 0 0;
+    position: absolute;
+    z-index: 999;
+   border: 2px solid rgb(255, 204, 102) !important;
+    float: left;
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none !important;
+}
+.mainlist li ul {
+    margin-left: -50px;
+   
+}
+.mainlist li ul {
+    left: 5% !important;
+    position: absolute;
+    width: 100%;
+}
+.mainlist .has-filter-search-btn {
+    float: left;
+}
+.mainlist .has-filter-search-btn input {
+    background: #efefef;
+	border-radius:0px;
+	width:auto!important;
+	padding:5px!important;
+	line-height:100%
+}
+.mainlist  .has-filters  .has-filter-search-btn {
+    width: 60% !important;
+}
+.mainlist span {
+    color: #585858;
+    font-size: 16px;
+	cursor:pointer
+}
+.is-event.col-sm-12 {
+    background-color: #fff;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    color: #ff0000;
+}
+#search-page-wrapper .has-pings-and-events.row,#search-page-wrapper .has-form-for-event-search.row,#search-page-wrapper .row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+@media screen and (min-width:320px) and (max-width:480px)
+{
+.col-md-5.goes-on-left {
+    width: 100% !important;
+}
+.row.has-map.no-margin {
+    position: relative !important;
+    width: 100% !important;
+}
+.mainlist span {
+}
+.row.has-form-for-event-search {
+    margin-top: 80px !important;
+}
+/*.col-md-7.goes-on-right {*/
+    /*padding-left: 40px;*/
+/*}*/
+.mainlist li ul {
+    left: 0;
+    width: 90% !important;
+}
+.mainlist li li {
+    margin-left: 15%;
+    width: 90%;
+}
+
+/*.col-md-7.goes-on-right {*/
+    /*padding: 0;*/
+/*}*/
+.mainlist ul li li {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.mainlist li li {
+    margin-left: 20px !important;
+}
+.row.has-form-for-event-search {
+    padding: 0 !important;
+}
+
+.row.has-form-for-event-search {
+    padding: 0 !important;
+}
+.mainlist ul {
+    float: left !important;
+    margin: 0 !important;
+}
+.mainlist ul li {
+    float: left !important;
+    margin: 0 !important;
+    width: 80%;
+}
+
+}
+
+/* for header icons*/
+
+
+.navbar-icon {
+    background: rgb(255, 203, 101) none repeat scroll 0 0 !important;
+    border-radius: 50%;
+    color: #000 !important;
+    height: 25px;
+    padding: 0 6px;
+    text-align: center !important;
+    vertical-align: middle;
+    width: 25px !important;
+}
+.navbar-icon button {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font-size: inherit;
+    font-weight: bold;
+}
+.navbar-icon:hover {
+    background: #ccc none repeat scroll 0 0;
+    cursor: pointer;
+}
+.navbar-icon button:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    font-size: inherit;
+}
+
+
+
+/* for header icons*/
+
+
+/*Top search box*/
+
+
+#divResult .display_box {
+    display: block;
+    float: left;
+    width: 100%;
+}
+.contentArea #divResult {
+}
+.contentArea {
+    width: 50%;
+}
+.contentArea > #divResult {
+    border: 1px solid #ccc;
+    float: left;
+    height: auto;
+    width: 100%;
+}
+.display_box > img {
+    float: left;
+    height: 30px !important;
+    width: 30px !important;
+}
+.display_box {
+}
+
+/*------------------------*/
+.input-group #divResult {
+    background: #fff none repeat scroll 0 0;
+    max-height: 440px;
+    left: 0;
+    overflow: auto;
+    position: absolute;
+    width: 100%;
+    top:35px;
+	
+
+}
+.display_box {
+    padding: 5px !important;
+	border-left: solid 1px #ccc;
+	border-right: solid 1px #ccc;
+
+}
+#commentsdisplay tr, #commentsdisplay td div {
+    width: 100% !important;
+}
+/*Top search box*/
+
+/* Ping detail page*/
+#has-invite-friends.row .wrp {
+    max-height: 500px;
+    overflow: auto;
+}
+
+
+/* Ping detail page*/
+
+/*for alert msg on add event*/
+
+.alert.alert-success.col-sm-8 {
+    margin-left: 18%;
+    margin-top: 20px;
+}
+
+/*search bar top*/
+
+.name {
+    color: #000;
+    font-size: 16px !important;
+    padding-left: 8px;
+}
+.input-group .form-control
+{
+    z-index: 0!important;
+}
+#divResult a:last-child .display_box {
+    border-bottom: 1px solid #ccc;
+}
+.display_box:hover{ background:#efefef;}
+#searchsubmit.btn.btn-default {
+    border-radius: 0 !important;
+}
+#searchsubmit.btn.btn-default .glyphicon.glyphicon-search {
+    padding: 3px;
+}
+/*search bar top*/
+
+.ping-sect h3 {
+    cursor: pointer !important;
+}
+/*events page*/
+.events-page .row.events,.pings-page .row.events
+{
+    margin-left:0!important;
+    margin-right:0!important;
+}
+.events-page .row.events .col-sm-3, .pings-page .row.events .col-sm-3 {
+    box-shadow: 0 1px 1px 1px #efefef;
+    height: 385px;
+    margin: 5px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.events-page .row.events .col-sm-3 p, .events-page .row.events .col-sm-3 h5, .events-page .row.events .col-sm-3 h4, .events-page .row.events .col-sm-3 .section-bottom, .pings-page .row.events .col-sm-3 p, .pings-page .row.events .col-sm-3 h5, .pings-page .row.events .col-sm-3 h4, .pings-page .row.events .col-sm-3 .section-bottom {
+    padding-left: 7px !important;
+    padding-right: 7px !important;
+}
+.events-page .events .col-sm-3 img,.pings-page .events .col-sm-3 img {
+    width: 100%;
+}
+
+.events-page .jumbotron,.pings-page .jumbotron {
+    background: #fbfbfb none repeat scroll 0 0 !important;
+    border: 1px solid #efefef;
+    border-radius: 0 !important;
+}
+@media screen and (min-width: 1024px)
+{
+    .events-page .row.events .col-sm-3,.pings-page .row.events .col-sm-3 {
+       width: 24%;
+
+    }
+}
+/*events page*/
+
+/*Pings page*/
+.pings-page .row.events .col-sm-3 {height:220px;}
+/*Pings page*/
+
+/*Forgot pass*/
+
+.forgotpass .jumbotron.col-sm-6
+{
+    margin-top:100px;
+}
+.forgotpass .col-sm-6  img {
+    margin: 68px 12%;
+    width: 65%;
+}
+.header_forgot_link{cursor: pointer}
+/*Forgot pass*/
+
+/*Reset account*/
+.resetpass .col-sm-6.jumbotron {
+    margin: 10px 0 0 4%
+}
+@media screen and (min-width: 1024px)
+{
+    .resetpass .col-sm-6.jumbotron {
+        margin: 100px 25% !important;
+    }
+}
+/*Reset account*/
+
+.datepicker table tr td, .datepicker table tr th {
+    width: auto !important;
+}
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con,.se-pre-con2,.se-pre-con3 {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../images/Preloader.gif) center no-repeat #fff;
+}
+
+.bootstrap-datetimepicker-widget .glyphicon.glyphicon-time{ font-size:25px}
+.bootstrap-datetimepicker-widget {text-align: center}
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn
+{
+    opacity: 1;
+}
+
+.se-pre-con2,.se-pre-con3{position: absolute;
+    display: none;
+    background: url(../images/preloader1.gif) center no-repeat #fff!important;
+
+}
+/*Edit profile sections*/
+
+
+.row {
+}
+.row .edt-img-sec {
+    margin: 0 auto;
+    width: 200px;
+}
+.row.edt-img-banner {
+    background: rgba(0, 0, 0, 0) url("../images/df-cover.jpg") repeat scroll 0 0;
+    border: 2px solid rgb(255, 204, 102);
+    margin-bottom: 18px;
+}
+
+.nav.nav-tabs.profile-edit-tabs {
+    background: rgb(255, 204, 102) none repeat scroll 0 0;
+    height: 35px;
+    margin-top: -18px !important;
+}
+.profile-edit-tabs li.active a, .profile-edit-tabs li:hover a, .profile-edit-tabs li a {
+    border-radius: 0 !important;
+    color: #545454;
+    padding: 6px;
+}
+
+/*Edit profile sections*/

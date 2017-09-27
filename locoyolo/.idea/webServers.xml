@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e1f2ed85-5d63-4081-9362-0db1b9115abe" name="locomvc" url="http://10.10.10.26">
+        <fileTransfer host="10.10.10.26" port="22" rootFolder="/var/www/html/locomvc/" accessType="SFTP" password="dff9dfdfdfc4dfebdfd8dfc9dfeadf9bdf98df99" username="sunarc">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="42cc0e89-a617-4459-8ad0-6482a06a1205" name="locoyolo" url="http://10.10.10.26">
+        <fileTransfer host="10.10.10.26" port="22" rootFolder="/var/www/html/locoyolo" accessType="SFTP" username="sunarc">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

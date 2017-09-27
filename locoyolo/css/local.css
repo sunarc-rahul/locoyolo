@@ -1,0 +1,497 @@
+.input-group-btn button {
+    background-color: rgb(255,203,101);
+}
+.search-bar .input-group ul {
+    width: 85%;
+    border-radius: 0px;
+}
+
+
+.display860 .tableorangeborder {
+    position: relative;
+    right: 15px;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+    background-color:rgb(255,235,175);
+    color:rgb(51,63,114);
+}
+.search-bar #search.form-control.typeahead {
+    border-radius: 0;
+}
+.search-bar .col-lg-10 .input-group .input-group-btn button{
+    border-radius: 0;
+}
+/*for facebook icon*/
+.display860 #header-wrap #FacebookBtn > img {
+    height: 37px;
+    position: relative;
+    top: 14px;
+}
+/*for ping a meetup button*/
+#header-wrap .slimbuttonblue {
+    width: 85px!important;
+}
+.right {
+    margin-top: 15px !important;
+}
+.left > #map {
+    margin-top: 0 !important;
+}
+
+.events-page .display860 .left {
+    width: 30% !important;
+}
+
+.events-page .display860 .right {
+    width: 70%!important;
+}
+/*Added by nisha@21june for eventdetail page*/
+#event-detail-page-wrapper .container .has-event-message .col-sm-1
+{
+   /* width: 4% !important;*/
+	padding:0 !important;
+	text-align:center;
+}
+#event-detail-page-wrapper .has-event-message .has-comments .col-md-2.event-user-image {
+    width: 11%;
+}
+#event-detail-page-wrapper .has-event-message .has-comments .comment-textarea input.comment-area {
+    height: 37px;
+    max-width: 100%;
+    width: 100%;
+}
+#event-detail-page-wrapper .has-event-message .has-comments .send-comment .standardgreybutton {
+    margin: 2px;
+    position: relative;
+    right: 2px;
+}
+#event-detail-page-wrapper .has-event-message #commentsdisplay .col-md-3.comment-message-image {
+    width: 12%;
+}
+#cancelpopup .modal-content
+{
+    width: 426px!important;
+}
+/*end here*/
+/*Added bi nisha for events.php page for notification div*/
+.is-event.col-sm-12 {
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+}
+.has-filter-search-btn .standardbutton {
+    height: 35px;
+    padding: 0px !important;
+    text-align: center;
+    width: 65%!important;
+}
+.has-filters > .has-filter-search-btn {
+
+    width: 39%!important;
+}
+#header-wrapper .header #icons
+{
+   /* width: 17%;*/
+    margin-top: 8px;
+	margin-right:-20px;
+}
+#header-wrapper .row #icons > div.navbar-icon
+{
+    width: 24%;
+}
+#header-wrapper {
+    background: #fff none repeat scroll 0 0;
+    position:relative;
+    /*width: 100%;*/
+    z-index: 1;
+    border-bottom: 2px solid rgb(255, 204, 102);
+}
+ #header-wrapper .header .logo_div.col-md-2 {
+    padding-left: 12px;
+}
+ #search-page-wrapper .row.has-form-for-event-search {
+    margin-top: 53px;
+    padding: 10px;
+}
+ #search-page-wrapper #eventlistdisplay .row.has-pings-and-events {
+    padding: 10px;
+}
+
+.events-page #header-wrapper {
+    border-bottom: 2px solid rgb(255, 204, 102);
+}
+#header-wrapper .header .col-md-5.search-bar {
+    position: relative;
+    top: -6px;
+}
+#participants-page-wrapper {
+    margin-top: 0px!important;
+}
+#header-wrapper .right-side-wrapper #signin-form #header_input .slimbutton {
+    height: 34px;
+    width: 24%;
+}
+#header_input > input {
+    width: 35%;
+}
+#ping-detail-page-wrapper .row.comments-to-display {
+    display: grid;
+}
+.events-page #search-page-wrapper #eventlistdisplay .has-pings-and-events .is-event .is-event-image {
+    cursor: pointer;
+}
+
+/*css for participants.php page for image added by nisha@27june*/
+#participants-page-wrapper .container .has-event-message .col-sm-1 {
+    width: 5%;
+}
+
+#event-detail-page-wrapper .goes-on-right .has-comments .comment-textarea input.comment-area {
+
+    width: 100%;
+}
+#event-detail-page-wrapper .goes-on-right .has-comments .send-comment .standardgreybutton{
+    padding: 5px!important;
+}
+#event-detail-page-wrapper .goes-on-right .has-comments .row.col-md-2.send-comment {
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+#event-detail-page-wrapper,#participants-page-wrapper .container {
+    margin-top: 10px;
+}
+.display860
+{
+    margin-top: 40px;
+}
+ #header-wrapper .search-bar .input-group .twitter-typeahead{
+    width: 100%;
+}
+/*#exampleModal .modal-dialog .modal-content .modal-body .nav-tabs {*/
+    /*width: 50%;*/
+/*}*/
+#exampleModalPing .modal-dialog .modal-content .modal-body .container {
+    width: 100%;
+}
+#exampleModal .modal-dialog .modal-content .modal-body .container {
+    width: 100%;
+}
+#exampleModalPing .modal-dialog .modal-content .modal-body .tab-content #going .search-name {
+    margin-bottom: 15px;
+    margin-top: 12px;
+}
+#exampleModalPing .modal-dialog .modal-content .modal-body .tab-content #interested .search-name {
+    margin-bottom: 15px;
+    margin-top: 12px;
+}
+
+#header-wrapper #icons .no-of-notification {
+    background: red none repeat scroll 0 0;
+    border-radius: 50%;
+    bottom: 32px;
+    color: #fff;
+    font-size: 8px;
+    padding: 3px;
+    position: relative;
+}
+#exampleModalPing .modal-dialog #going .has-invites .pop-up-img {
+    width: 7%;
+}
+#exampleModalPing .modal-content .modal-body .modal-footer,.modal-header
+{
+    padding: 7px;
+}
+#exampleModalPing .modal-content .modal-body {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+#exampleModalPing .modal-content .modal-body .container .nav-tabs {
+    padding-top: 7px;
+    position: relative;
+    right: 31px;
+    width:111%;
+}
+
+#exampleModalPing .modal-header .close {
+    margin-top: -20px!important;
+}
+
+#exampleModalPing .modal-title {
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+}
+#exampleModalPing .modal-footer {
+    padding-bottom: 2px!important;
+    padding-top: 3px!important;
+}
+#exampleModalPing .modal-dialog {
+
+    width: 425px;
+}
+#ping-detail-page-wrapper #has-invite-friends .buddy-img {
+    width: 7%;
+}
+#event-detail-page-wrapper #has-invite-friends .buddy-img {
+    width: 7%;
+}
+#ping-detail-page-wrapper .goes-on-left .row.has-event-message {
+    margin-top: 44px;
+}
+.container .has-event-message .col-sm-1 {
+    width: 37px!important;
+}
+#ping-detail-page-wrapper .Comments-message-image {
+    width: 34px;
+    margin-right: 5px;
+}
+
+#ping-detail-page-wrapper .container .col-md-4
+{
+    margin-top: 100px;
+}
+#event-detail-page-wrapper .goes-on-right .row.has-comments .row.col-md-8.comment-textarea {
+    width: 81%;
+}
+.goes-on-right .has-comments .col-md-2.event-user-image
+{
+    width: 60px;
+}
+#event-detail-page-wrapper .goes-on-right .row.has-map {
+    margin-top: 0;
+}
+#event-detail-page-wrapper .goes-on-right .row.has-map-title {
+    color: #b06335;
+}
+body{
+    font-size: 17px!important;
+}
+
+/*added by nisha@7july */
+#header-wrapper .header #icons {
+    display: flex;
+   
+}
+.row.error {
+    margin-left: 18%;
+    /*margin-top: 54px;*/
+
+}
+#event-detail-page-wrapper .row.has-event-image {
+    padding: 0;
+	padding-right:57px;
+}
+.row.Show-error {
+    padding-left: 20%;
+    padding-top: 5%;
+}
+/*added by nisha@17july*/
+#header-wrapper #icons.col-md-5.icons_div div
+{
+    margin-left: 5px;
+}
+#header-wrapper #icons .dropdown .dropbtn
+{
+    margin: 0px!important;
+}
+#header-wrapper #icons .col.nav {
+    display: flex;
+    /*margin-left: 23%!important;*/
+}
+#participants-page-wrapper .row.has-event-image {
+    width: 100%;
+}
+/*#header-wrapper .right-side-wrapper .search-bar.col-md-5 {
+    width: 58.667%;
+}
+#header-wrapper #icons .no-of-notification {
+    bottom: 0px!important;
+}
+.editProfile {
+    padding-top: 95px;
+}
+#header-wrapper .header #icons .col.nav div
+{
+    font-size: 15px!important;
+}
+#header-wrapper .right-side-wrapper.col-md-7 {
+    width: 64%;
+}
+#header-wrapper .right-side-wrapper #signin-form #header_input .slimbutton {
+    padding-top: 7px;
+}*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    .logo_div.col-md-2 {
+        margin: 0!important;
+        padding: 0!important;
+    }
+
+    .col-md-5.icons_div {
+        width: 100%!important;
+    }
+
+    .search-bar .col-lg-10 {
+        margin-top: 20px!important;
+        width: 100%!important;
+    }
+    /*design for pingdetails.php page*/
+
+    #ping-detail-page-wrapper .container .has-event-message .col-sm-1 {
+        width: 54px!important;
+    }
+    #ping-detail-page-wrapper .goes-on-left .event-message-image, .event-message-content {
+        width: 77% !important;
+    }
+    #event-detail-page-wrapper .has-event-message
+    {
+        margin-top: 0px;
+    }
+    #event-detail-page-wrapper .container
+    {
+        width:100%!important;
+    }
+    #event-detail-page-wrapper .goes-on-left #has-invite-friends.row {
+        margin-left: -14px;
+        margin-right: -37px;
+    }
+    #event-detail-page-wrapper .container .has-event-message .col-sm-1 {
+        width: 54px;
+    }
+    #event-detail-page-wrapper .col-md-7.goes-on-right {
+        float: none;
+    }
+    #event-detail-page-wrapper .col-md-5.goes-on-left {
+        margin-bottom: 20px;
+    }
+    #event-detail-page-wrapper .col-md-5.goes-on-left {
+
+        width: 100%;
+    }
+    #header-wrapper .header #icons .navbar-icon.icon_2 {
+        width: 27%;
+    }
+    #header-wrapper .header #icons .navbar-icon.icon_3 {
+        width: 33%;
+    }
+/*added by nisha@27June for eventdetail page*/
+
+
+    #event-detail-page-wrapper .goes-on-right .row.has-comments {
+        display: flex;
+    }
+    #event-detail-page-wrapper .col-md-2.event-user-image {
+
+        width: 70px;
+    }
+
+       #event-detail-page-wrapper .goes-on-right .has-comments .row.col-md-8.comment-textarea
+    {
+        width: 100%;
+    }
+
+
+    #event-detail-page-wrapper,#participants-page-wrapper .container {
+        margin-top: 10px;
+    }
+    /*#ping-detail-page-wrapper .Comments-message-image {*/
+        /*width: 34px;*/
+    /*}*/
+    #ping-detail-page-wrapper .has-comments .has-comment-area {
+        display: flex;
+    }
+    #ping-detail-page-wrapper .col-md-7.goes-on-left {
+        margin-top: 139px;
+    }
+    #header-wrapper .search-bar .input-group #divResult{
+        z-index: 1;
+    }
+
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 991px) {
+
+    #event-detail-page-wrapper,#participants-page-wrapper .container {
+        margin-top: 10px;
+    }
+
+    #header-wrapper .row.header {
+        display: flex;
+    }
+
+    #event-detail-page-wrapper .container {
+        width: 100%!important;
+    }
+    #event-detail-page-wrapper .goes-on-right .row.has-comments {
+        display: flex;
+    }
+    #event-detail-page-wrapper .goes-on-right .has-comments .col-md-2.event-user-image
+    {
+        width: 70px;
+
+    }
+    #event-detail-page-wrapper .goes-on-right .row.has-comments .row.col-md-8.comment-textarea {
+        width: 100%;
+    }
+
+    #event-detail-page-wrapper .container .has-event-message .col-sm-1 {
+        width: 9%;
+    }
+    #search-page-wrapper .col-md-7.goes-on-right {
+        float: right;
+        width: 61%;
+    }
+    .input-group .form-control, .input-group-addon, .input-group-btn
+    {
+        display: block;
+    }
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+
+    #ping-detail-page-wrapper .container .col-md-4 {
+        margin:0px!important;
+        margin-top: 15px!important;
+        }
+    #event-detail-page-wrapper .goes-on-right .has-title {
+        position: relative;
+        right: 16px;
+    }
+    #event-detail-page-wrapper .goes-on-right .row.has-comments {
+        position: relative;
+        right: 16px;
+        top: 2px;
+    }
+    #event-detail-page-wrapper .col-md-7.goes-on-right {
+        margin-left: 15px;
+    }
+
+}
+
+
+/*.no-of-notification {
+    background: transparent none repeat scroll 0 0 !important;
+    border: 1px solid red  !important;
+    border-radius: 5px  !important;
+    color: red  !important;
+    float: left  !important;
+    height: 15px  !important;
+    margin-left: 11px  !important;
+    margin-top: -12px  !important;
+    padding: 2px  !important;
+    text-align: center  !important;
+    width: 15px  !important;
+}*/
+/* 27 july 2017*/
+.has-event-summary .has-title { margin-bottom:0 !important;}
+/*.has-event-summary .has-title h3, .row.has-map-title > h4, .has-title > h4 { margin-bottom:0 !important;}
+*/.has-event-summary { margin-bottom:0 !important;}
+/*.has-content p { margin:0 !important;}*/
+.has-event-requirements .has-content { margin:0 !important;}
+.row.has-map > div {
+    margin-top: 10px;
+}
